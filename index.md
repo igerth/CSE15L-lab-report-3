@@ -23,10 +23,11 @@ This alternate way of using `grep` colors the search string or pattern that you 
 ```
 $ grep  -r "café" written_2 > results.txt
 ```
-![Image]()
+![Image](https://github.com/igerth/CSE15L-lab-report-3/blob/main/Screenshot%202023-02-13%20at%202.42.01%20PM.png?raw=true)
+This is the first few lines of the .txt file that I transferred the `grep` results into since the command returned a lot of lines. The `wc` command could be helpful here. 
 ```
 $ grep -r "exotic birds" written_2
 ```
-![Image]()
+![Image](https://github.com/igerth/CSE15L-lab-report-3/blob/main/Screenshot%202023-02-13%20at%202.43.51%20PM.png?raw=true)
 
 This addition to the `grep` command is an easier way to search for a string or pattern through a directory and its subdirectories, without having to know any names of the directory's subdirectories. Say I wanted to search through a directory for a specific string, but I know nothing of any subdirectories. The `grep -r` command would come in handy. 
